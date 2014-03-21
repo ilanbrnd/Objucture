@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06767DD618DBF3AF00444EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06767DD518DBF3AF00444EBA /* Foundation.framework */; };
+		06767DDB18DBF3AF00444EBA /* Objucture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 06767DDA18DBF3AF00444EBA /* Objucture.h */; };
+		06767DDD18DBF3AF00444EBA /* Objucture.m in Sources */ = {isa = PBXBuildFile; fileRef = 06767DDC18DBF3AF00444EBA /* Objucture.m */; };
+		06767DE418DBF3AF00444EBA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06767DE318DBF3AF00444EBA /* XCTest.framework */; };
+		06767DE518DBF3AF00444EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06767DD518DBF3AF00444EBA /* Foundation.framework */; };
+		06767DE718DBF3AF00444EBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06767DE618DBF3AF00444EBA /* UIKit.framework */; };
+		06767DEA18DBF3AF00444EBA /* libObjucture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06767DD218DBF3AF00444EBA /* libObjucture.a */; };
+		06767DF018DBF3AF00444EBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06767DEE18DBF3AF00444EBA /* InfoPlist.strings */; };
+		06767DF218DBF3AF00444EBA /* ObjuctureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06767DF118DBF3AF00444EBA /* ObjuctureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06767DE818DBF3AF00444EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06767DCA18DBF3AF00444EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06767DD118DBF3AF00444EBA;
+			remoteInfo = Objucture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06767DD018DBF3AF00444EBA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				06767DDB18DBF3AF00444EBA /* Objucture.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06767DD218DBF3AF00444EBA /* libObjucture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjucture.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06767DD518DBF3AF00444EBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06767DD918DBF3AF00444EBA /* Objucture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objucture-Prefix.pch"; sourceTree = "<group>"; };
+		06767DDA18DBF3AF00444EBA /* Objucture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objucture.h; sourceTree = "<group>"; };
+		06767DDC18DBF3AF00444EBA /* Objucture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objucture.m; sourceTree = "<group>"; };
+		06767DE218DBF3AF00444EBA /* ObjuctureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjuctureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06767DE318DBF3AF00444EBA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		06767DE618DBF3AF00444EBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		06767DED18DBF3AF00444EBA /* ObjuctureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjuctureTests-Info.plist"; sourceTree = "<group>"; };
+		06767DEF18DBF3AF00444EBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06767DF118DBF3AF00444EBA /* ObjuctureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjuctureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06767DCF18DBF3AF00444EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06767DD618DBF3AF00444EBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06767DDF18DBF3AF00444EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06767DE418DBF3AF00444EBA /* XCTest.framework in Frameworks */,
+				06767DE718DBF3AF00444EBA /* UIKit.framework in Frameworks */,
+				06767DE518DBF3AF00444EBA /* Foundation.framework in Frameworks */,
+				06767DEA18DBF3AF00444EBA /* libObjucture.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06767DC918DBF3AF00444EBA = {
+			isa = PBXGroup;
+			children = (
+				06767DD718DBF3AF00444EBA /* Objucture */,
+				06767DEB18DBF3AF00444EBA /* ObjuctureTests */,
+				06767DD418DBF3AF00444EBA /* Frameworks */,
+				06767DD318DBF3AF00444EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06767DD318DBF3AF00444EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06767DD218DBF3AF00444EBA /* libObjucture.a */,
+				06767DE218DBF3AF00444EBA /* ObjuctureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06767DD418DBF3AF00444EBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06767DD518DBF3AF00444EBA /* Foundation.framework */,
+				06767DE318DBF3AF00444EBA /* XCTest.framework */,
+				06767DE618DBF3AF00444EBA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06767DD718DBF3AF00444EBA /* Objucture */ = {
+			isa = PBXGroup;
+			children = (
+				06767DDA18DBF3AF00444EBA /* Objucture.h */,
+				06767DDC18DBF3AF00444EBA /* Objucture.m */,
+				06767DD818DBF3AF00444EBA /* Supporting Files */,
+			);
+			path = Objucture;
+			sourceTree = "<group>";
+		};
+		06767DD818DBF3AF00444EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06767DD918DBF3AF00444EBA /* Objucture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06767DEB18DBF3AF00444EBA /* ObjuctureTests */ = {
+			isa = PBXGroup;
+			children = (
+				06767DF118DBF3AF00444EBA /* ObjuctureTests.m */,
+				06767DEC18DBF3AF00444EBA /* Supporting Files */,
+			);
+			path = ObjuctureTests;
+			sourceTree = "<group>";
+		};
+		06767DEC18DBF3AF00444EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06767DED18DBF3AF00444EBA /* ObjuctureTests-Info.plist */,
+				06767DEE18DBF3AF00444EBA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06767DD118DBF3AF00444EBA /* Objucture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06767DF518DBF3AF00444EBA /* Build configuration list for PBXNativeTarget "Objucture" */;
+			buildPhases = (
+				06767DCE18DBF3AF00444EBA /* Sources */,
+				06767DCF18DBF3AF00444EBA /* Frameworks */,
+				06767DD018DBF3AF00444EBA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Objucture;
+			productName = Objucture;
+			productReference = 06767DD218DBF3AF00444EBA /* libObjucture.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		06767DE118DBF3AF00444EBA /* ObjuctureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06767DF818DBF3AF00444EBA /* Build configuration list for PBXNativeTarget "ObjuctureTests" */;
+			buildPhases = (
+				06767DDE18DBF3AF00444EBA /* Sources */,
+				06767DDF18DBF3AF00444EBA /* Frameworks */,
+				06767DE018DBF3AF00444EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06767DE918DBF3AF00444EBA /* PBXTargetDependency */,
+			);
+			name = ObjuctureTests;
+			productName = ObjuctureTests;
+			productReference = 06767DE218DBF3AF00444EBA /* ObjuctureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06767DCA18DBF3AF00444EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kinjomo;
+			};
+			buildConfigurationList = 06767DCD18DBF3AF00444EBA /* Build configuration list for PBXProject "Objucture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06767DC918DBF3AF00444EBA;
+			productRefGroup = 06767DD318DBF3AF00444EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06767DD118DBF3AF00444EBA /* Objucture */,
+				06767DE118DBF3AF00444EBA /* ObjuctureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06767DE018DBF3AF00444EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06767DF018DBF3AF00444EBA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06767DCE18DBF3AF00444EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06767DDD18DBF3AF00444EBA /* Objucture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06767DDE18DBF3AF00444EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06767DF218DBF3AF00444EBA /* ObjuctureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06767DE918DBF3AF00444EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06767DD118DBF3AF00444EBA /* Objucture */;
+			targetProxy = 06767DE818DBF3AF00444EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06767DEE18DBF3AF00444EBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06767DEF18DBF3AF00444EBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06767DF318DBF3AF00444EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06767DF418DBF3AF00444EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06767DF618DBF3AF00444EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Objucture.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objucture/Objucture-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		06767DF718DBF3AF00444EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Objucture.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objucture/Objucture-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		06767DF918DBF3AF00444EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objucture/Objucture-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjuctureTests/ObjuctureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		06767DFA18DBF3AF00444EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objucture/Objucture-Prefix.pch";
+				INFOPLIST_FILE = "ObjuctureTests/ObjuctureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06767DCD18DBF3AF00444EBA /* Build configuration list for PBXProject "Objucture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06767DF318DBF3AF00444EBA /* Debug */,
+				06767DF418DBF3AF00444EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06767DF518DBF3AF00444EBA /* Build configuration list for PBXNativeTarget "Objucture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06767DF618DBF3AF00444EBA /* Debug */,
+				06767DF718DBF3AF00444EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06767DF818DBF3AF00444EBA /* Build configuration list for PBXNativeTarget "ObjuctureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06767DF918DBF3AF00444EBA /* Debug */,
+				06767DFA18DBF3AF00444EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06767DCA18DBF3AF00444EBA /* Project object */;
+}
